@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width: 20em;
+    height: 10em;
+    object-fit: cover;
+    margin: auto;
+}
+.color{
+    color: #1AA3B2;
+}
+.client{
+    color: #7AB51B;
+}
+.boutton{
+    border: none;
+    padding: 6px;
+    background-color:#1798A8;
+
+}

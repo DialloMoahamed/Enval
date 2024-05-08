@@ -1,0 +1,162 @@
+css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow-x: hidden;
+}
+.d-flex {
+    background-color: #d0e9ef;
+    width: 100%;
+}
+
+.u {
+    margin-top: 750px;
+    text-decoration: none;
+}
+
+.ddd {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.te {
+    display: flex;
+    justify-content: center;
+}
+
+
+.re {
+    margin-bottom: 45px;
+    text-decoration: none;
+}
+
+.a {
+    border-radius: 12px;
+
+}
+
+.navbar {
+    width: 100% !important;
+}
+
+li a:hover {
+    border-radius: 5px;
+    background-color: #e7f9fd;
+}
+
+.re:hover {
+    border-radius: 5px;
+    background-color: #e7f9fd;
+}
+.navbarImg img{
+    width: 70px;
+    height: 70px;
+    border: #4a96a6 solid 2px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+/* circle1 */
+
+h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 10px;
+    padding: 15px
+}
+
+
+:root {
+    --dot-diameter: 250px;
+    --circle-border-width: 3px;
+    --default-color: #55abbd;
+}
+
+h5 {
+    color: white;
+
+}
+
+.qa {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.qas {
+    justify-content: center;
+    display: flex;
+    color: #4a96a6;
+    font-size: 20px;
+
+}
+ .form-outline .form-control:focus {
+        box-shadow: none;
+        border-color: #ced4da; /* Optional: Add a default border color for visual indication */
+    }
+
+.restpon{
+  height: 85vh;
+}
+/* ressponsivedashboard */
+
+@media screen and (max-width:1024px) {
+
+    .bardroite {
+        width: 15em;
+    }
+}
+@media screen and (max-width:768px) {
+    .bardroite {
+        display: flex;
+        justify-content: center;
+        width: 50px;
+    }
+
+}
+@media screen and (max-width:425px) {
+    #overflow{
+        overflow-y: scroll;
+      }
+    .mai {
+        width: 80% !important;
+    }
+    .bardroite {
+        width: 13% !important;
+
+    }
+}
+@media screen and (max-width:375px) {
+
+    .mai {
+        width: 80% !important;
+    }
+
+    .bardroite {
+        width: 13% !important;
+
+    }
+}
+button{
+    width: 8em;
+    height: 2em;
+    border-radius: 5px;
+    border: none;
+    background-color: #52A0AF;
+    color: white;
+    
+}
+
+
+
+
+
+
